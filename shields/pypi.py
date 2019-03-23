@@ -18,7 +18,7 @@ Status:               https://img.shields.io/pypi/status/Django.svg
 class Pypi(shields.Abstract):
     __readme__ = []
     name = None
-    link = "https://pypi.org/pypi/{name}/"
+    link = "https://pypi.org/project/{name}/"
     path = "pypi/{cls}/{name}.svg"
 
     def __init__(self, name, **kwargs):

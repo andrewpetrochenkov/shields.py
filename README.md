@@ -1,8 +1,12 @@
-[![](https://img.shields.io/pypi/pyversions/shields.svg?longCache=True)](https://pypi.org/pypi/shields/)
-[![](https://img.shields.io/pypi/v/shields.svg?maxAge=3600)](https://pypi.org/pypi/shields/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/shields.svg?longCache=True)](https://pypi.org/project/shields/)
+[![](https://img.shields.io/pypi/v/shields.svg?maxAge=3600)](https://pypi.org/project/shields/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/shields.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/shields.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install shields
 ```
@@ -13,32 +17,13 @@ $ [sudo] pip install shields
 +   [shields.io](http://shields.io/) **styles**: `flat` (default), `plastic`, `flat-square`, `for-the-badge`, `social`
 
 #### Classes
-
-###### `shie.Badge`
-
-shields.io custom Badge
-
-attr|default value
+class|`__doc__`
 -|-
-`color`|`green`
-`status`|`None`
-`subject`|`None`
-
-###### `shields.npm.V`
-
-npm Version badge
-
-###### `shields.pypi.L`
-
-pypi License badge
-
-###### `shields.pypi.Pyversions`
-
-pypi pyversions badge
-
-###### `shields.pypi.V`
-
-pypi Version badge
+`shields._badge.Badge` |shields.io custom Badge
+`shields.npm.V` |npm Version badge
+`shields.pypi.L` |pypi License badge
+`shields.pypi.Pyversions` |pypi pyversions badge
+`shields.pypi.V` |pypi Version badge
 
 #### Examples
 static badge [![](https://img.shields.io/badge/subject-status-blue.svg)]()
@@ -82,4 +67,6 @@ static badge [![](https://img.shields.io/badge/subject-status-blue.svg)]()
 #### Links
 +   [shields.io](http://shields.io/)
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
