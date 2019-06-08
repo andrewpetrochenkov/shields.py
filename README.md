@@ -1,5 +1,6 @@
 <!--
 https://pypi.org/project/readme-generator/
+https://pypi.org/project/python-readme-generator/
 -->
 
 [![](https://img.shields.io/pypi/pyversions/shields.svg?longCache=True)](https://pypi.org/project/shields/)
@@ -68,5 +69,5 @@ static badge [![](https://img.shields.io/badge/subject-status-blue.svg)]()
 +   [shields.io](http://shields.io/)
 
 <p align="center">
-    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
 </p>
