@@ -1,5 +1,6 @@
-#!/usr/bin/env python
-import public
+__all__ = ['V', 'L', 'Pyversions']
+
+
 import shields
 
 """
@@ -30,12 +31,10 @@ class Pypi(shields.Abstract):
         return self.__class__.__name__.lower()
 
 
-@public.add
 class V(Pypi):
     """pypi Version badge"""
 
 
-@public.add
 class L(Pypi):
     """pypi License badge"""
 
@@ -48,7 +47,6 @@ class Format(Pypi):
     pass
 
 
-@public.add
 class Pyversions(Pypi):
     """pypi pyversions badge"""
 

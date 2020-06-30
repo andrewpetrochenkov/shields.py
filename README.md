@@ -1,13 +1,13 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/shields.svg?longCache=True)](https://pypi.org/project/shields/)
-[![](https://img.shields.io/pypi/v/shields.svg?maxAge=3600)](https://pypi.org/project/shields/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/shields.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/shields.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/shields.svg?maxAge=3600)](https://pypi.org/project/shields/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/shields.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/shields.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install shields
 ```
@@ -16,15 +16,6 @@ $ [sudo] pip install shields
 +   autoformat strings
 +   [shields.io](http://shields.io/) **parameters**: `style`, `for-the-badge`, `social`), `label`, `logo`, `logoWidth`, `colorA`, `colorB`, `maxAge`, `longCache`
 +   [shields.io](http://shields.io/) **styles**: `flat` (default), `plastic`, `flat-square`, `for-the-badge`, `social`
-
-#### Classes
-class|`__doc__`
--|-
-`shields._badge.Badge` |shields.io custom Badge
-`shields.npm.V` |npm Version badge
-`shields.pypi.L` |pypi License badge
-`shields.pypi.Pyversions` |pypi pyversions badge
-`shields.pypi.V` |pypi Version badge
 
 #### Examples
 static badge [![](https://img.shields.io/badge/subject-status-blue.svg)]()
@@ -69,5 +60,5 @@ static badge [![](https://img.shields.io/badge/subject-status-blue.svg)]()
 +   [shields.io](http://shields.io/)
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

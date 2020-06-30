@@ -4,7 +4,6 @@ try:
 except ImportError:
     from urllib.parse import urlencode  # python3
 import badge
-import public
 
 """
 http://shields.io/
@@ -13,10 +12,12 @@ The following styles are available (flat is the default as of Feb 1st 2015)
 """
 STYLES = ["plastic", "flat", "flat-square", "for-the-badge", "social"]
 """without 'link'"""
-PARAMETERS = ["style", "label", "logo", "logoWidth", "colorA", "colorB", "maxAge", "longCache"]
+PARAMETERS = ["style", "label", "logo", "logoWidth",
+              "colorA", "colorB", "maxAge", "longCache"]
 
 
 class Abstract(badge.Badge):
+
     @property
     def parameters(self):
         parameters = dict()

@@ -1,5 +1,6 @@
-#!/usr/bin/env python
-import public
+__all__ = ['V']
+
+
 import shields
 
 """
@@ -16,7 +17,6 @@ class Npm(shields.Abstract):
         self.update(kwargs)
 
 
-@public.add
 class V(Npm):
     """npm Version badge"""
     path = "npm/v/{name}.svg"
